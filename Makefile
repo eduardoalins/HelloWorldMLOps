@@ -11,4 +11,5 @@ lint:
 test:
 	pytest -v
 
-all: install lint test 
+all: 
+	install lint test 
